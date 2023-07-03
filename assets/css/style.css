@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+:root{
+    --cor-vermelho: rgb(255, 68, 68);
+
+}
+img{
+    width: 60%;
+}
+.contato{
+    width: 100%;
+    display: flex;
+}
+*{
+    margin: auto 0;
+    padding: auto 0;
+    scroll-behavior: smooth;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: rgb(226, 226, 226);
+  
+
+}
+.container{
+    margin: 5% 20%;
+    
+}
+.conteudo{
+    margin-block: 100px;
+    display: flex;
+    justify-content: center;
+}
+.linksHead{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding: 30px;
+    background-color: var(--cor-vermelho);
+    height: 40px;
+    margin-bottom: 100px;
+}
+.linksHead a{
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    transition: 0.1s;
+    
+}
+.linksHead a:hover{
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.conteudo{
+    display: flex;
+    gap: 10%;
+    font-size: 1.5rem;
+    padding: 3%;
+    margin-block: 100px;
+    padding-block: 100px;
+}
+.conteudo h2{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-vermelho);
+    padding: 8px;
+    border-radius: 3px;
+    color: antiquewhite; 
+    margin: 20px;
+    width: 250px;
+    box-shadow: 2px 2px 5px black;
+}
+#sobreMim{
+    border-left: 5px solid var(--cor-vermelho);
+}
+#interesses{
+    border-right: 5px solid var(--cor-vermelho);
+}
+#projetos{
+    border-inline: 5px solid var(--cor-vermelho);
+    background-image: url(../img/hacker-background-vetor.jpg);
+    background-size: cover;
+}
+.conteudoTxt{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.projeto{
+    border: 3px solid black;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(112, 112, 112);
+    transition: 0.2s;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.projeto:hover{
+    width: 220px;
+    height: 330px; 
+}
+#projetos{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+    height: 450px;
+}
+
+.projetosSeparacao{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.projetosSeparacao a{
+    text-decoration: none;
+}
+.contato a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    width: 200px;
+}
+
+.contato a:hover{
+    width: 230px;
+    
+}
+#contato{
+    margin-block: 10px;
+    height: 300px;
+    width: 94%;   
+    border-radius: 50px;
+    border-bottom: 5px solid var(--cor-vermelho);
+}
+
+#hobbies ul li{
+    border-radius: 10px;
+    padding: 10px;
+    
+    color: aliceblue;
+    transition: 3s;
+    font-size: 2rem;
+    margin-block: 80px;
+    background-size: cover;
+    background-position: center bottom;
+}
+#hobbies ul li:hover{
+    background-position: top;
+}
+#hobbies ul li:first-child{
+    background-image: url(../img/cuboBKGRND2.jpg);  
+}
+#hobbies ul li:last-child{
+    background-image: url(../img/tecladoBKGRND2.jpg);  
+}
